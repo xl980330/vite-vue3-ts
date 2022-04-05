@@ -1,0 +1,25 @@
+{
+  "name": "vite-vue3",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@unocss/preset-attributify": "^0.30.11",
+    "@unocss/preset-icons": "^0.30.11",
+    "@unocss/preset-uno": "^0.30.11",
+    "@vitejs/plugin-vue": "^2.3.0",
+    "typescript": "^4.5.4",
+    "unocss": "^0.30.11",
+    "vite": "^2.9.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
